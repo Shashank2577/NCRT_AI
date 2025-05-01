@@ -1,0 +1,54 @@
+# General ignore
+.DS_Store
+Thumbs.db
+
+# Node.js specific - Correct path to node_modules
+ncert_ui/node_modules/
+ncert_ui/dist/
+ncert_ui/build/
+.npm/
+.yarn/
+.pnp*
+*.log
+*.swp
+*.swo
+.env
+.cache
+
+# VS Code specific
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+ehthumbs_vista.db
+Thumbs.db
+*.stackdump
+
+# Editor/IDE generated files
+*.tmp
+*.bak
+*.swp
+*~.nib
+localSettings.js
+tmp/
+temp/
+
+# React specific
+ncert_ui/build
+ncert_ui/public/build
+ncert_ui/coverage
+
+# Ignore all files in dist/ and build/ except for those that should be tracked
+ncert_ui/**/dist/*
+ncert_ui/**/build/*
+!ncert_ui/**/dist/.gitkeep
+!ncert_ui/**/build/.gitkeep
